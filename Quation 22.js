@@ -1,12 +1,12 @@
-var distance = 100
-var time = 2
-var speed = distance/time
+var Australia = 46
+var England = 46
 
-
-if(speed>40)
-{
-    console.log("Aplly brake");
+if(Australia > England){
+    console.log("Australia");
+}
+else if(Australia < England){
+    console.log("England");
 }
 else{
-    console.log("keep going");
+    console.log("tie");
 }
